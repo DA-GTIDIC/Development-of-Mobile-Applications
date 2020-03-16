@@ -31,3 +31,4 @@ Course: [Grau en Tècniques d'Interacció Digital i de Computació](http://www.g
 6. Basic
 
 - DAM-LifeCycle: Simple example to learn and play with the different states of Android life cycle and understand how it works. [Session code](https://github.com/JordiMateoUdL/DAM-AgeApp-LifeCycle)
+- DAM-RecyclerView: Complete example to learn how to display/filter a list of items with (CRUD) using ROOM, DAO, MVVM, LiveData and RecyclerView. [Session code](https://github.com/JordiMateoUdL/DAM-RecyclerView)
