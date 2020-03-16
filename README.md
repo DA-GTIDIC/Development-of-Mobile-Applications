@@ -2,11 +2,16 @@
 
 Take your coding skills to the next level. The course uses the JAVA programming language and teaches you about UX,notifications, maps, communication, storage, ... Learn how to properly code, evaluate, test and launch your mobile apps.
 
+
 ## About
 
-Instructor: [Jordi Mateo Fornés](http:jordimateofornes.com)
+<img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/61190134/76793662-b6b8bd00-67c5-11ea-83b2-efcc9ed462fc.png">
 
-Course: [Grau en Tècniques d'Interacció Digital i de Computació](http://www.grauinteraccioicomputacio.udl.cat/ca/index.html)
+*Instructor*: [Jordi Mateo Fornés](http:jordimateofornes.com)
+
+*Course*: [Grau en Tècniques d'Interacció Digital i de Computació](http://www.grauinteraccioicomputacio.udl.cat/ca/index.html)
+
+*University*: University of Lleida - Campus Igualada - Escola Politècnica Superior
 
 ## Index
 
