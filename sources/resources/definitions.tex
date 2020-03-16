@@ -1,0 +1,40 @@
+% Original Author: Carsten Gips <carsten.gips@fh-bielefeld.de>
+% Copyright: (c) 2016-2018 Carsten Gips
+% License: MIT
+
+
+%------------------------------------- Packages ----------------
+\usepackage[babel]{csquotes}
+\usepackage{xspace}
+%------------------------------------- Packages ----------------
+
+%------------------------------------- Fonts and Colors ---------------------
+\usepackage{xcolor}  %% already included by beamer
+
+\definecolor{midnightblue}{rgb}{0.2,0.2,0.7}
+
+\definecolor{dkblue}{rgb}{0,0,0.6}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{dkred}{rgb}{0.6,0,0}
+
+\definecolor{listinggray}{gray}{0.92}
+
+\definecolor{headcolor}{rgb}{0.25,0.44,0.63}  % #4070a0 as in html.css
+\definecolor{origin}{rgb}{0.93,0.93,0.93}     % #ededed as in html.css
+%------------------------------------- Fonts and Colors ---------------------
+
+%------------------------------------- CMDs ---------------------
+\newcommand{\blueArrow}{{\color{midnightblue}$\pmb{\Rightarrow}$}\xspace}
+
+\newcommand{\hinweis}[1]{\smallskip\emph{Hinweis}: #1}  % `[...]{.hinweis}` in document will be converted by `tex.lua` filter to `\hinweis{...}`
+\newcommand{\thema}[1]{\medskip\textbf{Thema}: #1}  % `[...]{.thema}` in document will be converted by `tex.lua` filter to `\thema{...}`
+
+\newsavebox{\mycolorbox}
+\newenvironment{mycbox}{\begin{lrbox}{\mycolorbox}}{\end{lrbox}\begin{center}\fcolorbox{blue}{listinggray}{\usebox{\mycolorbox}}\end{center}}
+\newcommand{\cboxbegin}{\begin{mycbox}}
+\newcommand{\cboxend}{\end{mycbox}}
+%------------------------------------- CMDs ---------------------
+
+
+
+

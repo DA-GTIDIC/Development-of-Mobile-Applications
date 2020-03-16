@@ -1,0 +1,63 @@
+PWD          = $(shell pwd)
+DATADIR      = ..
+FILTERDIR    = $(DATADIR)/filters
+RESOURCEDIR  = $(DATADIR)/resources
+RESOURCEPATH = .:./figs:$(DATADIR)
+
+PANDOC      ?= docker run --rm -v $(PWD):/pandoc -v $(PWD)/$(FILTERDIR):/filters -v $(PWD)/$(RESOURCEDIR):/resources debian-texlive pandoc
+
+
+SRC         ?= $(wildcard vl*.md)
+ID          ?= AMD
+
+SLIDES       = $(SRC:%.md=${ID}_%.pdf)
+
+
+TARGETDIR    = ../slides/
+
+
+## Opcions per a les slides
+
+OPTIONS        = -f markdown
+OPTIONS       += --data-dir=${DATADIR}
+OPTIONS       += --resource-path=${RESOURCEPATH}
+
+BEAMEROPTIONS  = -t beamer
+BEAMEROPTIONS += --pdf-engine=pdflatex
+BEAMEROPTIONS += --default-image-extension=pdf
+BEAMEROPTIONS += -V theme:metropolis
+BEAMEROPTIONS += -V themeoptions:numbering=none -V themeoptions:progressbar=foot
+BEAMEROPTIONS += -V fontsize=smaller
+BEAMEROPTIONS += --strip-comments
+BEAMEROPTIONS += --slide-level=2
+BEAMEROPTIONS += --lua-filter=${FILTERDIR}/tex.lua
+BEAMEROPTIONS += --include-in-header=${RESOURCEDIR}/definitions.tex
+BEAMEROPTIONS += --include-in-header=${RESOURCEDIR}/beamer.tex
+BEAMEROPTIONS += --filter pandoc-citeproc
+BEAMEROPTIONS += -M suppress-bibliography=true -M link-citations=false
+BEAMEROPTIONS += $(OPTIONS)
+
+## Comandes
+
+all: $(SLIDES)
+
+$(SRC:.md=): %: ${ID}_%.pdf 
+
+${ID}_%.pdf: %.md
+	$(PANDOC) ${BEAMEROPTIONS} -o $@ $^
+
+
+install: $(TARGETDIR) $(SLIDES) 
+	mv ${SLIDES} $(TARGETDIR)
+
+$(TARGETDIR):
+	mkdir $@
+
+clean:
+	rm -f $(SLIDES) 
+
+.PHONY: all install clean
+
+
+
+
