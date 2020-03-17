@@ -25,6 +25,8 @@ Take your coding skills to the next level. The course uses the JAVA programming 
 
 2. Storage
 
+- **DAM-SharedPreferences**: Learn how to use shared preference storage. [Session code](https://github.com/JordiMateoUdL/DAM-SharedPreferences).
+
 3. Testing
    
 4. UI
