@@ -40,3 +40,5 @@ Take your coding skills to the next level. The course uses the JAVA programming 
 - **DAM-LifeCycle**: Simple example to learn and play with the different states of Android life cycle and understand how it works. [Session code](https://github.com/JordiMateoUdL/DAM-AgeApp-LifeCycle)
 
 - **DAM-RecyclerView**: Complete example to learn how to display/filter a list of items with (CRUD) using ROOM, DAO, MVVM, LiveData and RecyclerView. [Session code](https://github.com/JordiMateoUdL/DAM-RecyclerView)
+
+- **DAM-LiveCoding-Paper-Rock-Scissor-Lizard-Spock**: Live coding session where students learn MVVM, databindings and dialog by doing. [Session code](https://github.com/JordiMateoUdL/DAM-LiveCoding-Paper-Rock-Scissor-Lizard-Spock)
