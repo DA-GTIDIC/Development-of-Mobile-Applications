@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">DAM-ROL-GAME</string>
+    <string name="roll">Roll</string>
+    <string name="game_dice">Game Dice</string>
+    <string name="close">Close</string>
+    <string name="start">Start</string>
+    <string name="end">End</string>
+    <string name="start_dice">Click the dice to roll:</string>
+    <string name="game_dialog_title">New Game</string>
+
+    <string name="EMPIEZA">Nunca es tarde. Actuar ahora es mejor que mañna, pero siempre hubiera
+    sido mejor haber actuado antes. Estamos en una situación critica en la que, en los próximos
+    días, nuestro pueblo va a sufrir como nunca. Alea iacta est!</string>
+
+    <string name="REPARTO">El gobierno ha podido mandar un cargo de material sanitario sobrevolando
+        la poblacion (baja la poblacion infectada un 1-5%)</string>
+    <string name="VACUNAS">Una cura milagrosa, pero limitada ha sido enviada a las casas de los
+        habitantes, puede que salgamos de esta (baja la población infectada un 10-20%)</string>
+    <string name="ENCASA">La Gente se ha quedado en casa! Increíble, todo el conjunto de habitantes
+        ha sido capaz de escuchar unas instrucciones sencillas y fáciles de seguir por un día!
+        (baja la población infectada 5%)</string>
+    <string name="FUERACASA">Como no, alguien tenía que sacar a pasear al perro por séptima vez,
+        ha posibilitado la propagación del virus a sus convecinos. (% de infectados aumenta un 5%)</string>
+    <string name="CEPAMUTADA">Parece que una cepa aún peor del temible CruzcampoVirus
+        ha sido descubierta hoy, y afecta a tu querido pueblo, es mucho peor que la cepa normal,
+        pero tan solo dura un día (% de infectados aumenta un 15%)</string>
+    <string name="INCONSIENCIA"> El pueblo parece pensar, a pesar de todas las pruebas indicando
+        lo contrario, que lo peor ya ha pasado. Así que no parece tan mala idea ir al
+        bar a echar un domino....(% de infectados aumenta un 10%)</string>
+    <string name="game_name">Cruzcampo Virus</string>
+    <string name="days_to_surive">Days to surive</string>
+    <string name="start_infection_rate">Start Infection Rate(%)</string>
+
+</resources>
