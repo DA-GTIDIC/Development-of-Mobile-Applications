@@ -17,28 +17,28 @@ Take your coding skills to the next level. The course uses the JAVA programming 
 
 1. Design Patterns
 
-- **DAM-MVC-Active**: Learn how to apply the model-view-presenter. [Session code](https://github.com/JordiMateoUdL/DAM-MVP).
-  
-- **DAM-MVC-Active**: Learn how to apply the model-view-controller using observers. [Session code](https://github.com/JordiMateoUdL/DAM-MVC-Active).
+   - **DAM-MVC-Active**: Learn how to apply the model-view-presenter. [Session code](https://github.com/JordiMateoUdL/DAM-MVP).
 
-- **DAM-MVVM**: Learn how to apply the model-view-viewmodel. [Session code](https://github.com/JordiMateoUdL/DAM-MVVM).
+   - **DAM-MVC-Active**: Learn how to apply the model-view-controller using observers. [Session code](https://github.com/JordiMateoUdL/DAM-MVC-Active).
+
+   - **DAM-MVVM**: Learn how to apply the model-view-viewmodel. [Session code](https://github.com/JordiMateoUdL/DAM-MVVM).
 
 2. Storage
 
-- **DAM-SharedPreferences**: Learn how to use shared preference storage. [Session code](https://github.com/JordiMateoUdL/DAM-SharedPreferences).
+   - **DAM-SharedPreferences**: Learn how to use _shared preference storage_. [Session code](https://github.com/JordiMateoUdL/DAM-SharedPreferences).
 
-3. Testing
-   
-4. UI
+3. Services
 
-5. Services
-
-- **DAM-Retrofit**: Learn how to make API calls using [Retrofit](https://square.github.io/retrofit/). [Session code](https://github.com/JordiMateoUdL/DAM-Retrofit)
+   - **DAM-Retrofit**: Learn how to make API calls using [Retrofit](https://square.github.io/retrofit/). [Session code](https://github.com/JordiMateoUdL/DAM-Retrofit)
   
-6. Basic
+4. Basic
 
-- **DAM-LifeCycle**: Simple example to learn and play with the different states of Android life cycle and understand how it works. [Session code](https://github.com/JordiMateoUdL/DAM-AgeApp-LifeCycle)
+   - **DAM-LifeCycle**: Simple example to learn and play with the different states of the #android life cycle and understand how it works. [Session code](https://github.com/JordiMateoUdL/DAM-AgeApp-LifeCycle)
 
-- **DAM-RecyclerView**: Complete example to learn how to display/filter a list of items with (CRUD) using ROOM, DAO, MVVM, LiveData and RecyclerView. [Session code](https://github.com/JordiMateoUdL/DAM-RecyclerView)
+   - **DAM-RecyclerView**: Complete example to learn how to display/filter a list of items with (**CRUD**) using _ROOM, DAO, MVVM, LiveData and RecyclerView_. [Session code](https://github.com/JordiMateoUdL/DAM-RecyclerView)
 
-- **DAM-LiveCoding-Paper-Rock-Scissor-Lizard-Spock**: Live coding session where students learn MVVM, databindings and dialog by doing. [Session code](https://github.com/JordiMateoUdL/DAM-LiveCoding-Paper-Rock-Scissor-Lizard-Spock)
+   - **DAM-LiveCoding-Paper-Rock-Scissor-Lizard-Spock**: Live coding session where students learn _MVVM_, _databindings_ and dialog by doing. [Session code](https://github.com/JordiMateoUdL/DAM-LiveCoding-Paper-Rock-Scissor-Lizard-Spock)
+
+5. Workshops
+
+   - **DAM-ROL-GAME**: Dice-based role-playing game with a pandemic context. [Workshop code](https://github.com/JordiMateoUdL/DAM-ROL-GAME)
