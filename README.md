@@ -41,4 +41,4 @@ Take your coding skills to the next level. The course uses the JAVA programming 
 
 5. Workshops
 
-   - **DAM-ROL-GAME**: Dice-based role-playing game with a pandemic context. [Workshop code](https://github.com/JordiMateoUdL/DAM-ROL-GAME)
+   - **DAM-Workshop-Pandemic**: Dice-based role-playing game with a pandemic context. [Workshop code](https://github.com/JordiMateoUdL/DAM-Workshop-Pandemic)
