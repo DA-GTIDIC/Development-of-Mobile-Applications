@@ -15,36 +15,43 @@ Take your coding skills to the next level. The course uses the JAVA programming 
 
 ## Index
 
-1. Design Patterns
+* **Microservices and APIs with Falcon**
 
-   - **DAM-MVC-Active**: Learn how to apply the model-view-presenter. [Session code](https://github.com/JordiMateoUdL/DAM-MVP).
-
-   - **DAM-MVC-Active**: Learn how to apply the model-view-controller using observers. [Session code](https://github.com/JordiMateoUdL/DAM-MVC-Active).
-
-   - **DAM-MVVM**: Learn how to apply the model-view-viewmodel. [Session code](https://github.com/JordiMateoUdL/DAM-MVVM).
-
-2. Storage
-
-   - **DAM-SharedPreferences**: Learn how to use _shared preference storage_. [Session code](https://github.com/JordiMateoUdL/DAM-SharedPreferences).
-
-3. Services
-
-   - **DAM-Retrofit**: Learn how to make API calls using [Retrofit](https://square.github.io/retrofit/). [Session code](https://github.com/JordiMateoUdL/DAM-Retrofit)
+  1. Falcon API
+     * **MysqlAlchemy relations**: Learn how to apply relations using SQLAlchemy, filters and serving static media files. [Session code](https://github.com/JordiMateoUdL/DAM-Core).
   
-4. Basic
+* **Android App with JAVA**
 
-   - **DAM-LifeCycle**: Simple example to learn and play with the different states of the #android life cycle and understand how it works. [Session code](https://github.com/JordiMateoUdL/DAM-AgeApp-LifeCycle)
+  1. Design Patterns
 
-   - **DAM-RecyclerView**: Complete example to learn how to display/filter a list of items with (**CRUD**) using _ROOM, DAO, MVVM, LiveData and RecyclerView_. [Session code](https://github.com/JordiMateoUdL/DAM-RecyclerView)
+     * **DAM-MVC-Active**: Learn how to apply the model-view-presenter. [Session code](https://github.com/JordiMateoUdL/DAM-MVP).
 
-   - **DAM-LiveCoding-Paper-Rock-Scissor-Lizard-Spock**: Live coding session where students learn _MVVM_, _databindings_ and dialog by doing. [Session code](https://github.com/JordiMateoUdL/DAM-LiveCoding-Paper-Rock-Scissor-Lizard-Spock)
+     * **DAM-MVC-Active**: Learn how to apply the model-view-controller using observers. [Session code](https://github.com/JordiMateoUdL/DAM-MVC-Active).
 
-5. Workshops
+     * **DAM-MVVM**: Learn how to apply the model-view-viewmodel. [Session code](https://github.com/JordiMateoUdL/DAM-MVVM).
 
-   - **DAM-Workshop-Pandemic**: Dice-based role-playing game with a pandemic context. [Workshop code](https://github.com/JordiMateoUdL/DAM-Workshop-Pandemic)
+  2. Storage
 
-6. Testing
+     * **DAM-SharedPreferences**: Learn how to use _shared preference storage_. [Session code](https://github.com/JordiMateoUdL/DAM-SharedPreferences).
 
-   - **DAM-Basic-Testing**: Simple example of Unit and Integration tests. We use Mockito and Espresso. [Workshop code]()
-  
-   - **DAM-Testing-Retrofit**: This example shows how to mock a retrofit web service to test an external microservice and how to test UI using a mock web server. We use MockWebServer and Espresso. [Workshop code]()
+  3. Services
+
+     * **DAM-Retrofit**: Learn how to make API calls using [Retrofit](https://square.github.io/retrofit/). [Session code](https://github.com/JordiMateoUdL/DAM-Retrofit)
+
+  4. Basic
+
+     * **DAM-LifeCycle**: Simple example to learn and play with the different states of the #android life cycle and understand how it works. [Session code](https://github.com/JordiMateoUdL/DAM-AgeApp-LifeCycle)
+
+     * **DAM-RecyclerView**: Complete example to learn how to display/filter a list of items with (**CRUD**) using _ROOM, DAO, MVVM, LiveData and RecyclerView_. [Session code](https://github.com/JordiMateoUdL/DAM-RecyclerView)
+
+     * **DAM-LiveCoding-Paper-Rock-Scissor-Lizard-Spock**: Live coding session where students learn _MVVM_, _databindings_ and dialog by doing. [Session code](https://github.com/JordiMateoUdL/DAM-LiveCoding-Paper-Rock-Scissor-Lizard-Spock)
+
+  5. Workshops
+
+     * **DAM-Workshop-Pandemic**: Dice-based role-playing game with a pandemic context. [Workshop code](https://github.com/JordiMateoUdL/DAM-Workshop-Pandemic)
+
+  6. Testing
+
+     * **DAM-Basic-Testing**: Simple example of Unit and Integration tests. We use Mockito and Espresso. [Session code](https://github.com/JordiMateoUdL/DAM-Testing-UI)
+
+     * **DAM-Testing-Retrofit**: This example shows how to mock a retrofit web service to test an external microservice and how to test UI using a mock web server. We use MockWebServer and Espresso. [Session code]()
