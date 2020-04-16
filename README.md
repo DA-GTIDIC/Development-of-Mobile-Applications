@@ -42,3 +42,9 @@ Take your coding skills to the next level. The course uses the JAVA programming 
 5. Workshops
 
    - **DAM-Workshop-Pandemic**: Dice-based role-playing game with a pandemic context. [Workshop code](https://github.com/JordiMateoUdL/DAM-Workshop-Pandemic)
+
+6. Testing
+
+   - **DAM-Basic-Testing**: Simple example of Unit and Integration tests. We use Mockito and Espresso. [Workshop code]()
+  
+   - **DAM-Testing-Retrofit**: This example shows how to mock a retrofit web service to test an external microservice and how to test UI using a mock web server. We use MockWebServer and Espresso. [Workshop code]()
