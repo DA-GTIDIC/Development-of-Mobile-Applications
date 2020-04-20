@@ -17,8 +17,10 @@ Take your coding skills to the next level. The course uses the JAVA programming 
 
 * **Microservices and APIs with Falcon**
 
-  1. Falcon API
-     * **MysqlAlchemy relations**: Learn how to apply relations using SQLAlchemy, filters and serving static media files. [Session code](https://github.com/JordiMateoUdL/DAM-Core).
+  1. Falcon API and SQLAlchemy
+     * **SqlAlchemy relations**: Learn how to apply relations using SQLAlchemy, filters and serving static media files. [View slides](https://github.com/JordiMateoUdL/Development-of-Mobile-Applications/blob/master/sources/slides/AMD_vl15.pdf), [View Markdown](https://github.com/JordiMateoUdL/Development-of-Mobile-Applications/blob/master/sources/course/vl15.md) and [View code](https://github.com/JordiMateoUdL/DAM-Core).
+  
+     * **Serving static media files**: Learn how to upload/store and retrieve) pictures. [View slides](https://github.com/JordiMateoUdL/Development-of-Mobile-Applications/blob/master/sources/slides/AMD_vl14.pdf), [View Markdown](https://github.com/JordiMateoUdL/Development-of-Mobile-Applications/blob/master/sources/course/vl14.md) and [View code](https://github.com/JordiMateoUdL/DAM-Core).
   
 * **Android App with JAVA**
 
