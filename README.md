@@ -56,4 +56,4 @@ Take your coding skills to the next level. The course uses the JAVA programming 
 
      * **DAM-Basic-Testing**: Simple example of Unit and Integration tests. We use Mockito and Espresso. [Session code](https://github.com/JordiMateoUdL/DAM-Testing-UI)
 
-     * **DAM-Testing-Retrofit**: This example shows how to mock a retrofit web service to test an external microservice and how to test UI using a mock web server. We use MockWebServer and Espresso. [Session code]()
+     * **DAM-Testing-Retrofit**: This example shows how to mock a retrofit web service to test an external microservice and how to test UI using a mock web server. We use MockWebServer and Espresso. [Session code](https://github.com/JordiMateoUdL/DAM-Testing-UI)
