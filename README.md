@@ -15,6 +15,10 @@ Take your coding skills to the next level. The course uses the JAVA programming 
 
 ## Index
 
+* **Course material**:
+  
+  1. Course presentation: [View slides](https://github.com/JordiMateoUdL/Development-of-Mobile-Applications/blob/master/sources/slides/AMD_vl00.pdf), [View Markdown](https://github.com/JordiMateoUdL/Development-of-Mobile-Applications/blob/master/sources/course/vl00.md).
+
 * **Microservices and APIs with Falcon**
 
   1. Falcon API and SQLAlchemy

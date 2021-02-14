@@ -33,8 +33,10 @@ BEAMEROPTIONS += --slide-level=2
 BEAMEROPTIONS += --lua-filter=${FILTERDIR}/tex.lua
 BEAMEROPTIONS += --include-in-header=${RESOURCEDIR}/definitions.tex
 BEAMEROPTIONS += --include-in-header=${RESOURCEDIR}/beamer.tex
-BEAMEROPTIONS += --filter pandoc-citeproc
-BEAMEROPTIONS += -M suppress-bibliography=true -M link-citations=false
+BEAMEROPTIONS += --filter pandoc-citeproc  
+BEAMEROPTIONS += --bibliography=bib.bib  
+BEAMEROPTIONS += -M link-citations=true
+#BEAMEROPTIONS += -M suppress-bibliography=true -M link-citations=false
 BEAMEROPTIONS += $(OPTIONS)
 
 ## Comandes
